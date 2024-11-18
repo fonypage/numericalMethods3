@@ -42,7 +42,19 @@ x_{n+1} = x_n - f(x_n)^2/f(x_n + f(x_n)) - f(x_n)
 #### Метод main(String[] args)
 ![image](https://github.com/user-attachments/assets/cdbc1bb9-9360-4fcd-998a-56321e32ac07)
 
-
+```java
+    public static void main(String[] args) {
+        double a = 1;
+        double b = 3;
+        double epsil = 1e-6;
+        int maxInter = 1000;
+        Double ans = steffensen(a,b,epsil,maxInter);
+        if(ans != null){
+            System.out.println(ans);
+        }
+        else System.out.println("No ans");
+    }
+```
 
 Описание:
 Этот метод является главным в программе. Он вызывает метод steffensen с заданными параметрами и выводит результат на экран, либо "No ans" если корней не нашлось.
