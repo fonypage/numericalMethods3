@@ -17,6 +17,21 @@
 #### Метод steffensen(double a, double b, double epsil, int maxInter)
 ![image](https://github.com/user-attachments/assets/da6ac518-6aa2-4848-bae4-7e80f2eab6cc)
 
+```java
+    public static Double steffensen(double a,double b, double epsil, int maxInter){
+        double x = (a+b) / 2;
+        for (int i = 0; i < maxInter; i++) {
+            double fx = f(x);
+            if(Math.abs(fx) < epsil)
+                return x;
+            double xNext = x - (fx * fx)/(f(x+fx)-fx);
+            if(Math.abs(xNext-x) < epsil)
+                return xNext;
+            x = xNext;
+        }
+        return null;
+    }
+```
 
 
 Описание:
