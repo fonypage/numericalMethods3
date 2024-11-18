@@ -4,6 +4,11 @@
 
 #### Метод f(double x)
 ![image](https://github.com/user-attachments/assets/35ffeaec-280d-4ad8-a621-7a9a7c1f9cf8)
+```java
+    public static double f(double x){
+        return x*x*x - 2*x - 5;
+    }
+```
 
 
 Описание:
