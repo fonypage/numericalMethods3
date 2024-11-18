@@ -10,7 +10,8 @@
 Этот метод вычисляет значение функции \( f(x) = x^3 - 2x - 5 \) для заданного значения \( x \).
 
 #### Метод steffensen(double a, double b, double epsil, int maxInter)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/da6ac518-6aa2-4848-bae4-7e80f2eab6cc)
+
 
 
 Описание:
