@@ -20,7 +20,8 @@ x_{n+1} = x_n - f(x_n)^2/f(x_n + f(x_n)) - f(x_n)
 
 
 #### Метод main(String[] args)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/cdbc1bb9-9360-4fcd-998a-56321e32ac07)
+
 
 
 Описание:
