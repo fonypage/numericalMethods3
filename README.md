@@ -3,7 +3,6 @@
 ### Документация к коду
 
 #### Метод f(double x)
-![image](https://github.com/user-attachments/assets/35ffeaec-280d-4ad8-a621-7a9a7c1f9cf8)
 ```java
     public static double f(double x){
         return x*x*x - 2*x - 5;
@@ -15,7 +14,6 @@
 Этот метод вычисляет значение функции \( f(x) = x^3 - 2x - 5 \) для заданного значения \( x \).
 
 #### Метод steffensen(double a, double b, double epsil, int maxInter)
-![image](https://github.com/user-attachments/assets/da6ac518-6aa2-4848-bae4-7e80f2eab6cc)
 
 ```java
     public static Double steffensen(double a,double b, double epsil, int maxInter){
@@ -40,7 +38,6 @@ x_{n+1} = x_n - f(x_n)^2/f(x_n + f(x_n)) - f(x_n)
 
 
 #### Метод main(String[] args)
-![image](https://github.com/user-attachments/assets/cdbc1bb9-9360-4fcd-998a-56321e32ac07)
 
 ```java
     public static void main(String[] args) {
